@@ -13,10 +13,15 @@ const Logo = () => {
     useEffect(() => {
         gsap.registerPlugin(DrawSVGPlugin)
 
-        gsap.timeline()
+        gsap
+        .timeline()
         .to(bgRef.current, {
             duration: 1,
             opacity: 1,
+        })
+        .from(outlineLogoRef.current, {
+            drawSVG: 0,
+            duration: 20,
         })
     },[])
     
