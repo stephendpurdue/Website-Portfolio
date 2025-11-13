@@ -8,7 +8,7 @@ const PDFViewer = () => {
   return (
     <div className="pdf-viewer">
       <iframe
-        src="/Royal Holloway - Letter.pdf"
+        src=""
         type="application/pdf"
         width="100%"
         height="100%"
