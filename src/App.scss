@@ -18,6 +18,15 @@ $primary-color: #ffd700;
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
+.tags {
+  display: none;
+}
+
+h1::before,
+h1::after {
+  display: none;
+}
+
 @media (min-width: 600px) {
   .header {grid-area: 1 / span 6;}
   .menu {grid-area: 2 / span 1;}
