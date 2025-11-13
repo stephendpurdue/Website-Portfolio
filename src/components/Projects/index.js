@@ -1,5 +1,4 @@
 import './index.scss';
-import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
 import Loader from 'react-loaders';
