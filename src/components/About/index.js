@@ -28,7 +28,7 @@ return (
                 />
             </h1>
             <p>
-                I've been working as a Game Development student for the alst 3 years working on C# programming, 
+                I've been working as a Game Development student for the last 3 years working on C# programming, 
                 and I'm hoping to pivot into Artificial Intelligence once I graduate.
             </p>
             <p>
