@@ -24,6 +24,30 @@ const Contact = () => {
                             idx={15}
                         />
                     </h1>
+                    <p>
+                        If you have any opportunities, or quesitons, please don't hesitate to reach out using the
+                        link below.
+                    </p>
+                    <div className="contact-form">
+                        <form>
+                            <li className="half">
+                                <input type='text' name='name' placeholder='Name' required />
+                            </li>
+                            <li className="half">
+                                <input type='text' name='email' placeholder='Name' required />
+                            </li>
+                            <li>
+                                <input placeholder="Subject" type="text" name="subject" required />
+                            </li>
+                            <li>
+                                <textarea placeholder='Message' name='message' required></textarea>
+                            </li>
+                            <li>
+                                <input type='submit' className='flat-button' value="SEND" />
+                            </li>
+                        </form>
+
+                    </div>
                 </div>
             </div>
             
